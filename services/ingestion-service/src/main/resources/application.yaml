@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ingestion-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/stormwatch
+    username: stormwatch
+    password: stormwatch
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+server:
+  port: 8081
