@@ -1,0 +1,122 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dff9341d3c5ee60c6d676079035d6e0f3dcbb33e.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -100.96,
+              30.29
+            ],
+            [
+              -100.96,
+              30.71
+            ],
+            [
+              -100.11,
+              30.71
+            ],
+            [
+              -99.7,
+              30.56
+            ],
+            [
+              -99.48,
+              30.5
+            ],
+            [
+              -99.31,
+              30.49
+            ],
+            [
+              -99.31,
+              30.29
+            ],
+            [
+              -100.96,
+              30.29
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dff9341d3c5ee60c6d676079035d6e0f3dcbb33e.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.dff9341d3c5ee60c6d676079035d6e0f3dcbb33e.001.1",
+        "areaDesc": "Kimble, TX; Sutton, TX",
+        "geocode": {
+          "SAME": [
+            "048267",
+            "048435"
+          ],
+          "UGC": [
+            "TXC267",
+            "TXC435"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/TXC267",
+          "https://api.weather.gov/zones/county/TXC435"
+        ],
+        "references": [],
+        "sent": "2026-11-09T14:38:00-06:00",
+        "effective": "2026-11-09T14:38:00-06:00",
+        "onset": "2026-11-09T14:38:00-06:00",
+        "expires": "2026-11-09T18:45:00-06:00",
+        "ends": "2026-11-09T18:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS San Angelo TX",
+        "headline": "Flood Advisory issued November 9 at 2:38PM CST until November 9 at 6:45PM CST by NWS San Angelo TX",
+        "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...Kimble County in west central Texas...\nSutton County in west central Texas...\n\n* WHEN...Until 645 PM CST.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 234 PM CST, Another area of moderate to briefly heavy rainfall\nis moving into southern Sutton County and will likely spread east\ninto Kimble County as well. Additional rainfall totals of up to 1\ninch or higher are possible. With rain totals of 3-5 inches\nacross this area over the last 3 days, this additional rain will\nquickly run off into creeks, streams, and arroyos. Low water\ncrossings will likely remain flooded and impassable through the\nafternoon and into the evening hours.\n- Some locations that will experience flooding include...\nSonora, Junction, Roosevelt, Telegraph, South Llano River State\nPark, Segovia, I-10 Near The Sutton-Kimble County Line, The\nIntersection Of Ranch Road 2596 And Ranch Road 864, Us-377 Near\nThe Kimble-Edwards County Line, and Cleo.\n- This includes Interstate 10 between Mile Markers 380 and 477.\n- http://www.weather.gov/safety/flood",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSSJT"
+          ],
+          "WMOidentifier": [
+            "WGUS84 KSJT 092038"
+          ],
+          "NWSheadline": [
+            "FLOOD ADVISORY IN EFFECT UNTIL 645 PM CST THIS EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KSJT.FA.Y.0233.261109T2038Z-261110T0045Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-09T18:45:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FAY"
+          ]
+        }
+      }
+    }
+  ]
+}
