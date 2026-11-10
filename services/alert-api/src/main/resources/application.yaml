@@ -5,9 +5,15 @@ spring:
     url: jdbc:postgresql://localhost:5432/stormwatch
     username: stormwatch
     password: stormwatch
+  flyway:
+    schemas: api
+    default-schema: api
   jpa:
     hibernate:
       ddl-auto: validate
     open-in-view: false
+    properties:
+      hibernate:
+        default_schema: api
 server:
   port: 8080
