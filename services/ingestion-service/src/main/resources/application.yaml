@@ -5,9 +5,15 @@ spring:
     url: jdbc:postgresql://localhost:5432/stormwatch
     username: stormwatch
     password: stormwatch
+  flyway:
+    schemas: ingestion
+    default-schema: ingestion
   jpa:
     hibernate:
       ddl-auto: validate
     open-in-view: false
+    properties:
+      hibernate:
+        default_schema: ingestion
 server:
   port: 8081
