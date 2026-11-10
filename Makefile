@@ -16,5 +16,7 @@ run-ingestion:  ## Run ingestion service
 	./mvnw -pl services/ingestion-service spring-boot:run
 run-api:        ## Run alert API service
 	./mvnw -pl services/alert-api spring-boot:run
+reset-db:       ## Stop everything and DELETE all local data
+	$(COMPOSE) --profile "*" down -v
 
-.PHONY: up up-auth down logs ps run-ingestion run-api help
+.PHONY: up up-auth down logs ps run-ingestion run-api reset-db help
